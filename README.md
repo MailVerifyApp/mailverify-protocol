@@ -1,33 +1,42 @@
-MailVerify
+# 📬 MailVerify
 
-A next-generation trust layer for email. Verify once. Deliver everywhere.
+> A next-generation trust layer for email.  
+> **Verify once. Deliver everywhere.**
 
-MailVerify is building a lightweight, cryptographically secure system to prove sender identity inside email systems—without needing plugins, inbox scraping, or invasive software. Think of it like a blue checkmark for your email address, backed by real-world verification.
+MailVerify is building a lightweight, cryptographically secure system to prove sender identity inside email systems—without plugins, inbox scraping, or invasive software.  
+Think of it like a blue checkmark for your email address, backed by real-world verification.
 
-Why MailVerify?
+---
 
-Email is broken. Anyone can impersonate anyone. Deliverability is fuzzy. Trust is invisible.
+## ❌ Why MailVerify?
 
-MailVerify fixes that by:
+Email is broken.  
+- Anyone can impersonate anyone  
+- Deliverability is unpredictable  
+- Trust is invisible
 
-Verifying who you are using trusted methods (institutional, domain-based, or social validation)
+---
 
-Signing your messages with a tamper-proof trust token
+## ✅ What MailVerify Does
 
-Displaying an email badge in inboxes or headers
+- **Verifies who you are** using trusted methods (institutional, domain-based, or social validation)  
+- **Signs your messages** with a tamper-proof trust token  
+- **Adds a verifiable header** or trust badge to your emails  
+- **Boosts deliverability** and recipient confidence without requiring inbox access
 
-Boosting deliverability and recipient confidence
+---
 
-Status
+## 🚧 Project Status
 
-This repo outlines the evolving MailVerify protocol and implementation roadmap. We're in active development. Contributions, feedback, and issues are welcome.
+This repo outlines the evolving MailVerify protocol and trust-layer spec.  
+We’re in **active development** — feedback, pull requests, and security-minded contributions welcome.
 
-Coming Soon
+---
 
-MVP token structure & signature validator
+## 🛠️ Coming Soon
 
-SMTP injection tool
+- MVP token structure & signature validator  
+- SMTP injection tool  
+- Trust registry API  
+- Integration guides for Gmail, Outlook, Zoho, and more
 
-Trust registry API
-
-Integration guides (Gmail, Outlook, Zoho, etc.)
